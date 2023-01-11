@@ -46,6 +46,9 @@ header{
 .menulink{
     color: #82898f;
 }
+.menulink:visited {
+    color:  #82898f;
+}
 .menulink:hover{
 cursor: pointer;
 border-bottom: 2px solid  #fa6980;
@@ -81,6 +84,19 @@ position: relative;
     height: 599px;
    
 }
+
+.section1_div1_img:hover {
+    animation: img-effect  4s ;
+}
+
+
+@keyframes img-effect {
+    0%   { opacity: default; }
+    100% { opacity: 0.8; }
+}
+
+
+
 
 .section1_div1_text{
     width: 602px;
@@ -186,6 +202,17 @@ margin-left: 40px;
 
 .section2_div_img{
     margin-bottom: 40px;
+    
+    transition-duration: 1.5s;
+}
+
+.section2_div_img:hover {
+    cursor: pointer;
+   
+    filter: grayscale(100%);
+    /* transform: scale(2);
+    box-shadow: 10px 15px 15px rgb(106, 89, 173); */
+
 }
 
 
