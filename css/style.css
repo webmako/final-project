@@ -15,7 +15,7 @@ body{
 }
 header{
 
-    width: 100%;
+    width: 1440px;
     margin: 0 auto;
     /* border: 3px solid blue; */
     display: flex;
@@ -624,6 +624,7 @@ width: 100%;
 .media_div{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .section1_div1_text{
